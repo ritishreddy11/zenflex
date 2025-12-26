@@ -135,9 +135,13 @@ export default function Home({ courses, heroSlides }) {
 
         {/* Wellness content - blended into page */}
         <section className="text-center mb-24 max-w-4xl mx-auto px-6 py-12">
-          <div className="text-2xl font-serif text-brown-900 mb-8 leading-relaxed italic" style={{fontWeight:550}}>
-            "True wellness isn't found in extremes — it's built through mindful choices, one breath at a time."
+          <div
+            className="text-2xl font-serif text-brown-900 mb-8 leading-relaxed italic"
+            style={{ fontWeight: 550 }}
+          >
+            &quot;True wellness isn&apos;t found in extremes — it&apos;s built through mindful choices, one breath at a time.&quot;
           </div>
+
           <div className="text-brown-700 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
             At <span className="font-semibold text-brand">ZenFlex</span>, we bring together yoga, holistic coaching, and mindful living to help you glow from within.<br/>
             Whether your goal is calm, clarity, or balance — we'll walk with you every step of the way.
@@ -298,7 +302,7 @@ export default function Home({ courses, heroSlides }) {
               ✨ Why Choose ZenFlex Wellness?
             </h2>
             <p className="text-lg text-brown-700 leading-relaxed max-w-2xl mx-auto">
-              Because your wellbeing deserves a mindful approach — body, mind & lifestyle in harmony.
+            Because your wellbeing deserves a mindful approach — body, mind &amp; lifestyle in harmony.
             </p>
           </div>
 
