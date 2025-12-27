@@ -40,7 +40,7 @@ export default function ReviewsSection() {
       }
     }, 100)
     return () => scrollContainer.removeEventListener('scroll', handleScroll)
-  }, [reviews.length, CARD_WIDTH])
+  }, [reviews.length])
 
   const duplicatedReviews = reviews.length > 0 ? [...reviews, ...reviews, ...reviews] : []
   function scrollReviews(direction) {
