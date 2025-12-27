@@ -16,8 +16,8 @@ export default function Custom404() {
             <div className="text-8xl font-serif text-brand mb-6">404</div>
             <h1 className="text-3xl font-serif text-brown-900 mb-4">Page Not Found</h1>
             <p className="text-brown-600 mb-8 leading-relaxed">
-              The page you're looking for seems to have wandered off on its own wellness journey. 
-              Let's get you back to finding your zen.
+              The page you&apos;re looking for seems to have wandered off on its own wellness journey. 
+              Let&apos;s get you back to finding your zen.
             </p>
             <div className="space-y-4">
               <Link href="/" className="btn btn-primary block">
@@ -31,7 +31,7 @@ export default function Custom404() {
               </Link>
             </div>
             <div className="mt-12 text-sm text-brown-500">
-              <p>"Sometimes getting lost is the first step to finding yourself."</p>
+              <p>&quot;Sometimes getting lost is the first step to finding yourself.&quot;</p>
             </div>
           </div>
         </div>

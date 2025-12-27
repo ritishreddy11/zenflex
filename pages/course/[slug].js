@@ -77,7 +77,7 @@ export default function CoursePage({ course }) {
         {/* Course Content */}
         {course.content && (
           <div className="mb-8">
-            <h3 className="text-2xl font-serif text-brown-900 mb-4">What You'll Learn</h3>
+            <h3 className="text-2xl font-serif text-brown-900 mb-4">What You&apos;ll Learn</h3>
             <div className="prose prose-lg text-brown-700 leading-relaxed">
               <ReactMarkdown>
                 {course.content}

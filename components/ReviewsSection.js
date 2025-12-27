@@ -1,10 +1,11 @@
 import { useEffect, useState, useRef } from 'react'
 
+const CARD_WIDTH = 320 + 24 // like courses
+
 export default function ReviewsSection() {
   const [reviews, setReviews] = useState([])
   const scrollRef = useRef(null)
   const isScrollingRef = useRef(false)
-  const CARD_WIDTH = 320 + 24 // like courses
 
   useEffect(() => {
     fetch('/api/reviews')
@@ -39,7 +40,7 @@ export default function ReviewsSection() {
       }
     }, 100)
     return () => scrollContainer.removeEventListener('scroll', handleScroll)
-  }, [reviews.length])
+  }, [reviews.length, CARD_WIDTH])
 
   const duplicatedReviews = reviews.length > 0 ? [...reviews, ...reviews, ...reviews] : []
   function scrollReviews(direction) {

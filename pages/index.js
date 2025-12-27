@@ -144,7 +144,7 @@ export default function Home({ courses, heroSlides }) {
 
           <div className="text-brown-700 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
             At <span className="font-semibold text-brand">ZenFlex</span>, we bring together yoga, holistic coaching, and mindful living to help you glow from within.<br/>
-            Whether your goal is calm, clarity, or balance — we'll walk with you every step of the way.
+            Whether your goal is calm, clarity, or balance — we&apos;ll walk with you every step of the way.
           </div>
           <div className="text-xl font-semibold text-brand">
             Start Your Wellness Journey Now

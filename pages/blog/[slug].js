@@ -1,6 +1,7 @@
 import { supabase } from '../../lib/supabaseClient'
 import Layout from '../../components/Layout'
 import ReactMarkdown from 'react-markdown'
+import Link from 'next/link'
 import SEOHead from '../../components/SEOHead'
 import { BreadcrumbSchema } from '../../components/StructuredData'
 
@@ -12,8 +13,8 @@ export default function BlogPost({ blog }) {
           <div className="max-w-4xl mx-auto px-6 py-8">
             <div className="text-center">
               <h1 className="text-3xl font-serif mb-4 text-brown-900">Blog Post Not Found</h1>
-              <p className="text-brown-700 mb-6">The blog post you're looking for doesn't exist.</p>
-              <a href="/blog" className="btn btn-primary">Back to Blog</a>
+              <p className="text-brown-700 mb-6">The blog post you&apos;re looking for doesn&apos;t exist.</p>
+              <Link href="/blog" className="btn btn-primary">Back to Blog</Link>
             </div>
           </div>
         </div>
@@ -126,9 +127,9 @@ export default function BlogPost({ blog }) {
 
           {/* Back to Blog Link */}
           <div className="text-center mt-12 pt-8 border-t border-beige-200">
-            <a href="/blog" className="btn btn-primary">
+            <Link href="/blog" className="btn btn-primary">
               ← Back to Blog
-            </a>
+            </Link>
           </div>
         </div>
       </div>
